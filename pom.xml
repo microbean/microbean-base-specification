@@ -19,7 +19,7 @@
   <name>MicroBean Base Specification</name>
   <description>${project.name}</description>
   <inceptionYear>2017</inceptionYear>
-  <url>https://ljnelson.github.io/${project.artifactId}</url>
+  <url>https://microbean.github.io/${project.artifactId}</url>
 
   <scm>
     <connection>scm:git:git@github.com:microbean/${project.artifactId}.git</connection>

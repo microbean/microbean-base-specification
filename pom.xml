@@ -13,10 +13,10 @@
   <parent>
     <groupId>org.microbean</groupId>
     <artifactId>microbean-pluginmanagement-pom</artifactId>
-    <version>3</version>
+    <version>5</version>
   </parent>
 
-  <name>MicroBean Base Specification</name>
+  <name>microBean Base Specification</name>
   <description>${project.name}</description>
   <inceptionYear>2017</inceptionYear>
   <url>https://microbean.github.io/${project.artifactId}</url>
@@ -75,24 +75,17 @@
       <dependency>
         <groupId>javax.validation</groupId>
         <artifactId>validation-api</artifactId>
-        <version>1.1.0.Final</version>
+        <version>2.0.1.Final</version>
         <type>jar</type>
       </dependency>
 
       <dependency>
         <groupId>org.microbean</groupId>
         <artifactId>microbean-configuration-cdi</artifactId>
-        <version>0.1.5</version>
+        <version>0.2.0</version>
         <type>jar</type>
       </dependency>
 
-      <dependency>
-        <groupId>org.slf4j</groupId>
-        <artifactId>slf4j-api</artifactId>
-        <version>1.7.25</version>
-        <type>jar</type>
-      </dependency>
-      
     </dependencies>
   </dependencyManagement>
 
@@ -149,32 +142,9 @@
       <scope>compile</scope>
     </dependency>
 
-    <dependency>
-      <groupId>org.slf4j</groupId>
-      <artifactId>slf4j-api</artifactId>
-      <type>jar</type>
-      <scope>compile</scope>
-    </dependency>
-    
   </dependencies>
 
   <build>
-
-    <resources>
-
-      <resource>
-        <directory>src/main/resources</directory>
-      </resource>
-      
-      <resource>
-        <targetPath>META-INF</targetPath>
-        <directory />
-        <includes>
-          <include>LICENSE</include>
-        </includes>
-      </resource>
-
-    </resources>
 
     <plugins>
 
@@ -190,6 +160,7 @@
 
     <!-- maven-release-plugin properties -->
     <goals>deploy,site-deploy</goals>
+    <scmCommentPrefix>[maven-release-plugin] [skip ci]</scmCommentPrefix>
     
   </properties>
   

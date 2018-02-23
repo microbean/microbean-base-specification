@@ -4,7 +4,7 @@
 
   <groupId>org.microbean</groupId>
   <artifactId>microbean-base-specification</artifactId>
-  <version>0.1.1-SNAPSHOT</version>
+  <version>0.1.1</version>
   <packaging>pom</packaging>
 
   <parent>
@@ -22,7 +22,7 @@
     <connection>scm:git:git@github.com:microbean/${project.artifactId}.git</connection>
     <developerConnection>scm:git:git@github.com:microbean/${project.artifactId}.git</developerConnection>
     <url>https://github.com/microbean/${project.artifactId}/</url>
-    <tag>HEAD</tag>
+    <tag>v0.1.1</tag>
   </scm>
 
   <dependencyManagement>

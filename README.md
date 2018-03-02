@@ -13,29 +13,37 @@ The `microbean-base-specification` specifies the following components:
 * [Version 1 of the `javax.inject` specification][javax-inject]
 * [Version 1.2 of the Interceptors specification][javax-interceptor-api]
 * [Version 2.0.1.Final of the Bean Validation specification][bean-validation]
-* [Version 0.2.0 of the microBean Configuration CDI project][microbean-configuration-cdi]
+* [Version 0.3.0 of the microBean Configuration CDI project][microbean-configuration-cdi]
 
 ## Usage
 
 For development, include the following XML stanzas intelligently in your `pom.xml`:
 
     <dependencyManagement>
+
       <dependency>
         <groupId>org.microbean</groupId>
         <artifactId>microbean-base-specification</artifactId>
-        <version>0.1.0</version>
-        <type>pom</type>
-        <scope>import</scope>
+        <version>0.3.0</version>
+        <type>pom</type> <!-- Note the type is pom. -->
+        <scope>import</scope> <!-- Note the scope is import. -->
       </dependency>
+      
+      <!-- Other managed dependencies go here. -->
+      
     </dependencyManagement>
     
     <dependencies>
+    
       <dependency>
         <groupId>org.microbean</groupId>
         <artifactId>microbean-base-specification</artifactId>
-        <type>pom</type>
-        <scope>provided</scope>
+        <type>pom</type> <!-- Note the type is pom. -->
+        <scope>provided</scope> <!-- Note the type is provided. -->
       </dependency>
+
+      <!-- Other dependencies go here. -->
+
     </dependencies>
 
 [javax-annotations-api]: https://jcp.org/en/jsr/detail?id=250

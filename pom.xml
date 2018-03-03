@@ -79,8 +79,15 @@
 
       <dependency>
         <groupId>org.microbean</groupId>
-        <artifactId>microbean-configuration-cdi</artifactId>
+        <artifactId>microbean-configuration-api</artifactId>
         <version>0.3.0</version>
+        <type>jar</type>
+      </dependency>
+      
+      <dependency>
+        <groupId>org.microbean</groupId>
+        <artifactId>microbean-configuration-cdi</artifactId>
+        <version>0.3.1</version>
         <type>jar</type>
       </dependency>
 
@@ -91,6 +98,13 @@
 
     <!-- Compile-scoped dependencies. -->
 
+    <dependency>
+      <groupId>org.microbean</groupId>
+      <artifactId>microbean-configuration-api</artifactId>
+      <type>jar</type>
+      <scope>compile</scope>
+    </dependency>
+    
     <dependency>
       <groupId>org.microbean</groupId>
       <artifactId>microbean-configuration-cdi</artifactId>

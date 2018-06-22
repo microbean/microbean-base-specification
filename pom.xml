@@ -4,7 +4,7 @@
 
   <groupId>org.microbean</groupId>
   <artifactId>microbean-base-specification</artifactId>
-  <version>0.4.1-SNAPSHOT</version>
+  <version>0.4.2-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <parent>
@@ -34,7 +34,7 @@
         <version>${project.version}</version>
         <type>pom</type>
       </dependency>
-      
+
       <dependency>
         <groupId>javax.annotation</groupId>
         <artifactId>javax.annotation-api</artifactId>
@@ -80,14 +80,14 @@
       <dependency>
         <groupId>org.microbean</groupId>
         <artifactId>microbean-configuration-api</artifactId>
-        <version>0.4.1</version>
+        <version>0.4.2</version>
         <type>jar</type>
       </dependency>
       
       <dependency>
         <groupId>org.microbean</groupId>
         <artifactId>microbean-configuration-cdi</artifactId>
-        <version>0.3.1</version>
+        <version>0.4.2</version>
         <type>jar</type>
       </dependency>
 

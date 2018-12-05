@@ -10,7 +10,8 @@
   <parent>
     <groupId>org.microbean</groupId>
     <artifactId>microbean-pluginmanagement-pom</artifactId>
-    <version>5</version>
+    <version>9</version>
+    <relativePath/>
   </parent>
 
   <name>microBean Base Specification</name>
@@ -45,14 +46,14 @@
       <dependency>
         <groupId>javax.el</groupId>
         <artifactId>javax.el-api</artifactId>
-        <version>3.0.1-b04</version>
+        <version>3.0.1-b06</version>
         <type>jar</type>
       </dependency>
       
       <dependency>
         <groupId>javax.enterprise</groupId>
         <artifactId>cdi-api</artifactId>
-        <version>2.0</version>
+        <version>2.0.SP1</version>
         <type>jar</type>
       </dependency>
 
@@ -80,14 +81,14 @@
       <dependency>
         <groupId>org.microbean</groupId>
         <artifactId>microbean-configuration-api</artifactId>
-        <version>0.4.2</version>
+        <version>0.4.3</version>
         <type>jar</type>
       </dependency>
       
       <dependency>
         <groupId>org.microbean</groupId>
         <artifactId>microbean-configuration-cdi</artifactId>
-        <version>0.4.2</version>
+        <version>0.4.3</version>
         <type>jar</type>
       </dependency>
 
@@ -168,12 +169,4 @@
     </plugins>
   </build>
 
-  <properties>
-
-    <!-- maven-release-plugin properties -->
-    <goals>deploy,site-deploy</goals>
-    <scmCommentPrefix>[maven-release-plugin] [skip ci]</scmCommentPrefix>
-    
-  </properties>
-  
 </project>

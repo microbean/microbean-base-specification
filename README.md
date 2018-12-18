@@ -14,7 +14,7 @@ The `microbean-base-specification` specifies the following components:
 * [Version 1.2 of the Interceptors specification][javax-interceptor-api]
 * [Version 2.0.1.Final of the Bean Validation specification][bean-validation]
 * [Version 0.4.4 of the microBean Configuration API project][microbean-configuration-api]
-* [Version 0.4.4 of the microBean Configuration CDI project][microbean-configuration-cdi]
+* [Version 0.4.5 of the microBean Configuration CDI project][microbean-configuration-cdi]
 
 ## Usage
 
@@ -26,7 +26,7 @@ in your `pom.xml`:
       <dependency>
         <groupId>org.microbean</groupId>
         <artifactId>microbean-base-specification</artifactId>
-        <version>0.4.4</version>
+        <version>0.4.5</version>
         <type>pom</type> <!-- Note the type is pom. -->
         <scope>import</scope> <!-- Note the scope is import. -->
       </dependency>

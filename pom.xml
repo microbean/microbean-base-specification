@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.microbean</groupId>
@@ -11,7 +14,7 @@
     <groupId>org.microbean</groupId>
     <artifactId>microbean-pluginmanagement-pom</artifactId>
     <version>10</version>
-    <relativePath />
+    <relativePath/>
   </parent>
 
   <name>microBean Base Specification</name>
@@ -39,7 +42,7 @@
       <dependency>
         <groupId>javax.annotation</groupId>
         <artifactId>javax.annotation-api</artifactId>
-        <version>1.3</version>
+        <version>1.3.2</version>
         <type>jar</type>
       </dependency>
 
@@ -67,7 +70,7 @@
       <dependency>
         <groupId>javax.interceptor</groupId>
         <artifactId>javax.interceptor-api</artifactId>
-        <version>1.2</version>
+        <version>1.2.2</version>
         <type>jar</type>
       </dependency>
 

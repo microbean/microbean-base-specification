@@ -10,11 +10,11 @@
   <parent>
     <groupId>org.microbean</groupId>
     <artifactId>microbean-pluginmanagement-pom</artifactId>
-    <version>10</version>
-    <relativePath />
+    <version>11</version>
+    <relativePath/>
   </parent>
 
-  <name>microBean Base Specification</name>
+  <name>microBean™ Base Specification</name>
   <description>${project.name}</description>
   <inceptionYear>2017</inceptionYear>
   <url>https://microbean.github.io/${project.artifactId}</url>
@@ -25,6 +25,11 @@
     <url>https://github.com/microbean/${project.artifactId}/</url>
     <tag>HEAD</tag>
   </scm>
+
+  <organization>
+    <name>microBean™</name>
+    <url>http://microbean.systems/</url>
+  </organization>
 
   <dependencyManagement>
     <dependencies>

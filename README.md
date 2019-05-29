@@ -1,7 +1,7 @@
-# microbean-base-specification
+# microBean™ Base Specification
 
 The `microbean-base-specification` project specifies the minimal set
-of APIs available to any microBean-based application or component.
+of APIs available to any microBean™-based application or component.
 
 ## Components
 
@@ -26,7 +26,7 @@ in your `pom.xml`:
       <dependency>
         <groupId>org.microbean</groupId>
         <artifactId>microbean-base-specification</artifactId>
-        <version>0.4.7</version>
+        <version>0.4.8</version>
         <type>pom</type> <!-- Note the type is pom. -->
         <scope>import</scope> <!-- Note the scope is import. -->
       </dependency>

@@ -42,7 +42,7 @@ in your `pom.xml`:
         <artifactId>microbean-base-specification</artifactId>
         <!-- Note no version is provided -->
         <type>pom</type> <!-- Note the type is pom. -->
-        <scope>provided</scope> <!-- Note the type is provided. -->
+        <scope>provided</scope> <!-- Note the scope is provided. -->
       </dependency>
 
       <!-- Other dependencies go here. -->

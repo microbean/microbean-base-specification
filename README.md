@@ -13,8 +13,7 @@ The `microbean-base-specification` specifies the following components:
 * [Version 1.0 of the Jakarta Dependency Injection specification](https://jakarta.ee/specifications/dependency-injection/1.0/)
 * [Version 1.2.5 of the Jakarta Interceptors specification](https://jakarta.ee/specifications/interceptors/1.2/)
 * [Version 2.0.2 of the Jakarta Bean Validation specification](https://jakarta.ee/specifications/bean-validation/2.0/)
-* [Version 0.4.4 of the microBean™ Configuration API project](https://microbean.github.io/microbean-configuration-api/)
-* [Version 0.5.0 of the microBean™ Configuration CDI project](https://microbean.github.io/microbean-configuration-cdi/)
+* [Version 0.0.3 of the microBean™ Settings project](https://microbean.github.io/microbean-settings/)
 
 ## Usage
 
@@ -26,7 +25,7 @@ in your `pom.xml`:
       <dependency>
         <groupId>org.microbean</groupId>
         <artifactId>microbean-base-specification</artifactId>
-        <version>0.5.0</version>
+        <version>0.6.0</version>
         <type>pom</type> <!-- Note the type is pom. -->
         <scope>import</scope> <!-- Note the scope is import. -->
       </dependency>
